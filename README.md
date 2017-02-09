@@ -5,9 +5,14 @@ bash-4.3# npm --version
 node --version
 v7.2.1
 
+webpack --version
+2.2.1
+
 python -V
 Python 2.7.13
 
+yarn --version
+0.20.0
+
 bash-4.3# echo $BASH_VERSION
 4.3.46(1)-release
-
