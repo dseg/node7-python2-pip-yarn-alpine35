@@ -1,5 +1,4 @@
-
-docker run -it e8379890f0b8
+docker run -it dseg/node7-python2-pip-yarn-alpine35
 bash-4.3# npm --version
 3.10.10
 
