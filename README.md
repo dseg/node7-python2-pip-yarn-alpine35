@@ -6,13 +6,17 @@ node --version
 v7.2.1
 
 webpack --version
-2.2.1
+2.3.3
 
 python -V
 Python 2.7.13
 
 yarn --version
-0.20.0
+0.22.0
+
+# TypeScript
+tsc --version
+2.2.2
 
 bash-4.3# echo $BASH_VERSION
 4.3.46(1)-release
