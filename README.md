@@ -12,7 +12,7 @@ v7.2.1
 
 ## Webpack
 webpack --version
-2.3.3
+2.5.1
 
 ## Python
 python -V
@@ -20,11 +20,11 @@ Python 2.7.13
 
 ## Yarn
 yarn --version
-0.22.0
+0.24.4
 
 ## TypeScript
 tsc --version
-2.2.2
+2.3.2
 
 ## BASH
 bash-4.3# echo $BASH_VERSION
