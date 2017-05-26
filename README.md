@@ -24,7 +24,7 @@ yarn --version
 
 ## TypeScript
 tsc --version
-2.3.2
+Version 2.3.2
 
 ## BASH
 bash-4.3# echo $BASH_VERSION

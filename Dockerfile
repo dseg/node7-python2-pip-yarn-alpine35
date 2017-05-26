@@ -1,8 +1,8 @@
 FROM alpine:3.5
-ENV WEBPACK_VERSION 2.5.1
+ENV WEBPACK_VERSION 2.6.1
 ENV TYPESCRIPT_VERSION 2.3.2
 ENV BOTO_VERSION 1.4.4
-ENV YARN_VERSION 0.24.4
+ENV YARN_VERSION 0.24.6
 # Bash is required for use with BitBucket Pipelines.
 # gcc, g++, python, make for building native node modules.
 RUN\
