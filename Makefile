@@ -1,11 +1,12 @@
 IMAGE='dseg/node7-python2-pip-yarn-alpine35'
-VERSION='1.0.11'
+VERSION='1.0.12'
 
 default: run
 
 run: build
 
 publish:
+	m4 README.m4 > README.md4
 	docker push $(IMAGE):$(VERSION)
 	docker push $(IMAGE):latest	
 
