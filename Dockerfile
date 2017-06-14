@@ -7,7 +7,7 @@ ENV YARN_VERSION 0.24.6
 # gcc, g++, python, make for building native node modules.
 RUN\
  apk upgrade --update-cache --available &&\
- apk add --no-cache nodejs-current git gcc g++ make openssh python py-pip bash zip findutils curl gnupg &&\
+ apk add --no-cache nodejs-current git gcc g++ make openssh python py-pip bash zip findutils curl gnupg rhash &&\
  pip install boto3==$BOTO_VERSION &&\
  npm i -g yarn@$YARN_VERSION webpack@$WEBPACK_VERSION typescript@$TYPESCRIPT_VERSION &&\
  rm -rf /tmp/npm*

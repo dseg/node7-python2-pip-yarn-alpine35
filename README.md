@@ -29,3 +29,14 @@ Version 2.3.4
 ## BASH
 bash-4.3# echo $BASH_VERSION
 4.3.46(1)-release
+
+## GnuPG
+gnupg --version
+
+# GnuPG
+gpg --version|head -1
+gpg (GnuPG) 2.1.15
+
+## rhash
+rhash --version
+Hash v1.3.4
